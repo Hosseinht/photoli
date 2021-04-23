@@ -31,14 +31,16 @@ header h2 {
   padding: 0.5rem;
   width: 100%;
   border: none;
-  border: 2px solid rgb(74, 68, 131);
+  border: 1px solid rgb(24, 22, 43);
+  margin-right: 0.2rem;
 }
 .search-form button {
   border: none;
   padding: 0.5rem;
   font-size: 1rem;
-  background: rgb(74, 68, 131);
-  color: white;
+  background: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(24, 22, 43);
   cursor: pointer;
 }
 .gallery-info {
@@ -74,9 +76,14 @@ header h2 {
 }
 .more {
   padding: 1rem 3rem;
-  background: chocolate;
+  background: #f36f38;
   color: white;
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
+}
+.more:hover {
+  background: rgb(255, 255, 255);
+  color: #f36f38;
+  border: 0.5px solid #f36f38;
 }
